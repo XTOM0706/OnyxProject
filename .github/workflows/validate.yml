@@ -1,0 +1,21 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate inventory and manifests
+        run: python3 scripts/verify_projects.py
+      - name: Dry-run source list
+        run: |
+          python3 scripts/fetch_sources.py --host codeberg --group system --list > /tmp/source-list.txt
+          head -20 /tmp/source-list.txt
