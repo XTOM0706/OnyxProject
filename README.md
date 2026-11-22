@@ -8,7 +8,7 @@
 
 ## 这个仓库是什么
 
-`OnyxProject` 是 **清单与同步入口**，不是把 65 个 AOSP 仓库和各应用源码复制一遍的超大单体仓库。
+`OnyxProject` 是 **清单与同步入口**，不是把 80 个上游仓库复制一遍的超大单体仓库。
 
 - `projects.json`：唯一清单，记录每个仓库的 host、owner、repo、AOSP 路径、分支、分组；
 - `default.xml` / `ecosystem.xml`：由清单生成的 `repo` manifest；
@@ -65,7 +65,7 @@ ONYX_MANIFEST_URL=https://github.com/XTOM0706/OnyxProject.git \
 | 生态应用 | **AriX**（AI 语音助手）、**NeX**（轻量浏览器）、**TraX**（健康）、**CloX**（桌面）、**CalX**（计算器）、**OptiX**（旋转摄像头）、RTOSify、OTAManager2、WatchMaker Store、wftools |
 | 工具 | Chromium WebView 预编译、平台测试、OnyxUI validation、watch face tools |
 
-完整清单见 [`docs/INVENTORY.md`](docs/INVENTORY.md)，应用映射见 [`docs/ECOSYSTEM.md`](docs/ECOSYSTEM.md)，原始数据见 [`projects.json`](projects.json)。
+完整清单见 [`docs/INVENTORY.md`](docs/INVENTORY.md)，应用映射见 [`docs/ECOSYSTEM.md`](docs/ECOSYSTEM.md)，Actions 参数见 [`docs/GITHUB-ACTIONS.md`](docs/GITHUB-ACTIONS.md)，安全报告见 [`SECURITY.md`](SECURITY.md)，原始数据见 [`projects.json`](projects.json)。
 
 ## 团队与状态
 

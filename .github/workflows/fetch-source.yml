@@ -73,6 +73,10 @@ jobs:
             echo "Set either group or only; refusing a full-tree download." >&2
             exit 2
           fi
+          if [ "$DEPTH" = "0" ] && [ -z "$ONLY" ]; then
+            echo "depth=0 requires only=...; refusing a full-history group download." >&2
+            exit 2
+          fi
           python3 scripts/fetch_sources.py "${args[@]}"
 
       - name: Summarize
@@ -84,12 +88,27 @@ jobs:
           wc -l source-list.txt
           cat source-list.txt
 
+      - name: Enforce artifact size budget
+        run: |
+          set -euo pipefail
+          bytes=$(du -sb sources | cut -f1)
+          echo "source bytes: $bytes"
+          if [ "$bytes" -gt 4294967296 ]; then
+            echo "Refusing to upload more than 4 GiB. Use a narrower only/group filter." >&2
+            exit 1
+          fi
+          if [ "$bytes" -gt 1073741824 ]; then
+            echo "::warning::Source snapshot is larger than 1 GiB; artifact storage will grow."
+          fi
+
       - name: Upload source as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: onyx-source-${{ github.run_number }}
+          name: onyx-source-${{ inputs.host }}
           path: |
             sources/
             source-list.txt
           retention-days: ${{ fromJSON(inputs.retention_days) }}
+          include-hidden-files: false
+          overwrite: true
           if-no-files-found: error
