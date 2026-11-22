@@ -17,10 +17,6 @@
 - `scripts/build_manifest.py`：清单变更后重新生成 manifest；
 - `scripts/verify_projects.py`：CI 校验路径、重复项、URL 和 manifest 是否过期。
 
-如果本机流量不够，也可以用 GitHub Actions 代拉：
-
-`Actions → fetch-source → Run workflow`，选 `host/group` 或填 `only`。源码在 GitHub runner 上下载，作为 **Actions artifact** 保存 1–30 天；本机只在需要时下载这个小产物，不跑 80 个仓库。
-
 源码仍然留在各自的上游仓库，**Codeberg 是 OnyxUI 系统源码的事实来源**。这样既保留上游历史，也不会把几十 GB 的 AOSP 历史塞进一个 GitHub 仓库。
 
 ## 快速开始
