@@ -1,0 +1,15 @@
+Onyx Project
+
+This repository contains an inventory of source repositories and scripts to
+fetch them. It does not relicense any upstream project.
+
+OnyxUI system repositories are hosted at https://codeberg.org/OnyxUI and
+retain the licenses and notices in each repository.
+
+AriX is hosted at https://github.com/XTOM0706/arix-app and is licensed under
+AGPL-3.0.
+
+GitLab ecosystem projects retain the licenses in their own repositories.
+
+The inventory and scripts in this repository are licensed under Apache-2.0;
+see LICENSE.

@@ -1,0 +1,808 @@
+{
+  "version": 1,
+  "updated": "2026-11-22",
+  "website": "https://onyxpj.wikidot.com/",
+  "source_of_truth": "https://codeberg.org/OnyxUI",
+  "projects": [
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "OnyxUI",
+      "path": "onyxui",
+      "revision": "main",
+      "group": "meta",
+      "url": "https://codeberg.org/OnyxUI/OnyxUI.git",
+      "description": "OnyxUI - Open source lightweight Android system for smartphones and smartwatches"
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_art",
+      "path": "art",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_art.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_bionic",
+      "path": "bionic",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_bionic.git",
+      "description": "OnyxUI bionic fork"
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_build",
+      "path": "build/make",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_build.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_build_soong",
+      "path": "build/soong",
+      "revision": "fix-mke2fs-android11",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_build_soong.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_device_lineage_sepolicy",
+      "path": "device/lineage/sepolicy",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_device_lineage_sepolicy.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_external_chromium-webview",
+      "path": "external/chromium-webview",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_external_chromium-webview.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_external_e2fsprogs",
+      "path": "external/e2fsprogs",
+      "revision": "fix-mke2fs-android11",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_external_e2fsprogs.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_external_libjpeg-turbo",
+      "path": "external/libjpeg-turbo",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_external_libjpeg-turbo.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_frameworks_av",
+      "path": "frameworks/av",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_frameworks_av.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_frameworks_base",
+      "path": "frameworks/base",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_frameworks_base.git",
+      "description": "crDroid android_frameworks_base"
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_frameworks_native",
+      "path": "frameworks/native",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_frameworks_native.git",
+      "description": "OnyxUI Android frameworks/native"
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_frameworks_opt_net_wifi",
+      "path": "frameworks/opt/net/wifi",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_frameworks_opt_net_wifi.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_frameworks_opt_telephony",
+      "path": "frameworks/opt/telephony",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_frameworks_opt_telephony.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_libcore",
+      "path": "libcore",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_libcore.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_lineage-sdk",
+      "path": "lineage-sdk",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_lineage-sdk.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_AudioFX",
+      "path": "packages/apps/AudioFX",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_AudioFX.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_BetterHealth",
+      "path": "packages/apps/BetterHealth",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_BetterHealth.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Bluetooth",
+      "path": "packages/apps/Bluetooth",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Bluetooth.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_CalX",
+      "path": "packages/apps/CalX",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_CalX.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Calendar",
+      "path": "packages/apps/Calendar",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Calendar.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_CatShare",
+      "path": "packages/apps/CatShare",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_CatShare.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_CloX",
+      "path": "packages/apps/CloX",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_CloX.git",
+      "description": "CloX launcher (com.ailife.clox) built-in for OnyxUI as a platform-signed privileged app; axmol native engine submodule; A11 privapp-permissions whitelist"
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Contacts",
+      "path": "packages/apps/Contacts",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Contacts.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_DeskClock",
+      "path": "packages/apps/DeskClock",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_DeskClock.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Dialer",
+      "path": "packages/apps/Dialer",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Dialer.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_DocumentsUI",
+      "path": "packages/apps/DocumentsUI",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_DocumentsUI.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Eleven",
+      "path": "packages/apps/Eleven",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Eleven.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_EmergencyInfo",
+      "path": "packages/apps/EmergencyInfo",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_EmergencyInfo.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Etar",
+      "path": "packages/apps/Etar",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Etar.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_FaceUnlockService",
+      "path": "packages/apps/FaceUnlockService",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_FaceUnlockService.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_FactoryTest",
+      "path": "packages/apps/FactoryTest",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_FactoryTest.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Gallery2",
+      "path": "packages/apps/Gallery2",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Gallery2.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Glimpse",
+      "path": "packages/apps/Glimpse",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Glimpse.git",
+      "description": "LineageOS Glimpse gallery, adapted for OnyxUI / Android 11 (motion photos, built-in M3 photo+video editor, Monet backport)"
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_InstallerX",
+      "path": "packages/apps/InstallerX",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_InstallerX.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Launcher3",
+      "path": "packages/apps/Launcher3",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Launcher3.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_LineageParts",
+      "path": "packages/apps/LineageParts",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_LineageParts.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Matlog",
+      "path": "packages/apps/Matlog",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Matlog.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Messaging",
+      "path": "packages/apps/Messaging",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Messaging.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_OnyxBrowser",
+      "path": "packages/apps/OnyxBrowser",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_OnyxBrowser.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_OnyxIME",
+      "path": "packages/apps/OnyxIME",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_OnyxIME.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_PermissionController",
+      "path": "packages/apps/PermissionController",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_PermissionController.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Recorder",
+      "path": "packages/apps/Recorder",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Recorder.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_RotatingCamera",
+      "path": "packages/apps/RotatingCamera",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_RotatingCamera.git",
+      "description": "Rotating Camera - system camera app for OnyxUI (source: https://gitlab.com/ailife8881/rotating-camera)"
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Rtosify",
+      "path": "packages/apps/Rtosify",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Rtosify.git",
+      "description": "RTOSify mirror for OnyxUI system build"
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_Settings",
+      "path": "packages/apps/Settings",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_Settings.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_SetupWizard",
+      "path": "packages/apps/SetupWizard",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_SetupWizard.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_ThemePicker",
+      "path": "packages/apps/ThemePicker",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_ThemePicker.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_WallpaperPicker2",
+      "path": "packages/apps/WallpaperPicker2",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_WallpaperPicker2.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_apps_crDroidSettings",
+      "path": "packages/apps/crDroidSettings",
+      "revision": "main",
+      "group": "apps",
+      "url": "https://codeberg.org/OnyxUI/android_packages_apps_crDroidSettings.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_providers_MediaProvider",
+      "path": "packages/providers/MediaProvider",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_packages_providers_MediaProvider.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_services_OmniJaws",
+      "path": "packages/services/OmniJaws",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_packages_services_OmniJaws.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_services_Telecomm",
+      "path": "packages/services/Telecomm",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_packages_services_Telecomm.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_packages_services_Telephony",
+      "path": "packages/services/Telephony",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_packages_services_Telephony.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_platform_testing",
+      "path": "platform_testing",
+      "revision": "main",
+      "group": "tools",
+      "url": "https://codeberg.org/OnyxUI/android_platform_testing.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_system_apex",
+      "path": "system/apex",
+      "revision": "fix-mke2fs-android11",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_system_apex.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_system_netd",
+      "path": "system/netd",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_system_netd.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_system_sepolicy",
+      "path": "system/sepolicy",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_system_sepolicy.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_vendor_addons",
+      "path": "vendor/addons",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_vendor_addons.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "android_vendor_lineage",
+      "path": "vendor/lineage",
+      "revision": "main",
+      "group": "system",
+      "url": "https://codeberg.org/OnyxUI/android_vendor_lineage.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "prebuilt_chromium-webview_arm",
+      "path": "prebuilts/chromium-webview/arm",
+      "revision": "master",
+      "group": "tools",
+      "url": "https://codeberg.org/OnyxUI/prebuilt_chromium-webview_arm.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "prebuilt_chromium-webview_arm64",
+      "path": "prebuilts/chromium-webview/arm64",
+      "revision": "master",
+      "group": "tools",
+      "url": "https://codeberg.org/OnyxUI/prebuilt_chromium-webview_arm64.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "prebuilt_chromium-webview_x86",
+      "path": "prebuilts/chromium-webview/x86",
+      "revision": "master",
+      "group": "tools",
+      "url": "https://codeberg.org/OnyxUI/prebuilt_chromium-webview_x86.git",
+      "description": ""
+    },
+    {
+      "host": "codeberg",
+      "owner": "OnyxUI",
+      "repo": "prebuilt_chromium-webview_x86_64",
+      "path": "prebuilts/chromium-webview/x86_64",
+      "revision": "master",
+      "group": "tools",
+      "url": "https://codeberg.org/OnyxUI/prebuilt_chromium-webview_x86_64.git",
+      "description": ""
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "clox",
+      "path": "upstream/ailife8881/clox",
+      "revision": "main",
+      "group": "ecosystem",
+      "url": "https://gitlab.com/ailife8881/clox.git",
+      "description": "CloX launcher (upstream)"
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "nex",
+      "path": "packages/apps/NeX",
+      "revision": "main",
+      "group": "ecosystem",
+      "url": "https://gitlab.com/ailife8881/nex.git",
+      "description": "NeX lightweight browser"
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "better-health-tracker",
+      "path": "packages/apps/TraX",
+      "revision": "master",
+      "group": "ecosystem",
+      "url": "https://gitlab.com/ailife8881/better-health-tracker.git",
+      "description": "TraX health tracker"
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "calx",
+      "path": "upstream/ailife8881/calx",
+      "revision": "main",
+      "group": "ecosystem",
+      "url": "https://gitlab.com/ailife8881/calx.git",
+      "description": "CalX calculator"
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "onyx-browser",
+      "path": "upstream/ailife8881/onyx-browser",
+      "revision": "main",
+      "group": "ecosystem",
+      "url": "https://gitlab.com/ailife8881/onyx-browser.git",
+      "description": "OnyxBrowser (legacy)"
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "onyxbrowser2",
+      "path": "packages/apps/OnyxBrowser2",
+      "revision": "lineage-23.2",
+      "group": "ecosystem",
+      "url": "https://gitlab.com/ailife8881/onyxbrowser2.git",
+      "description": "OnyxBrowser2"
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "onyx-ime",
+      "path": "upstream/ailife8881/onyx-ime",
+      "revision": "lineage-23.2",
+      "group": "ecosystem",
+      "url": "https://gitlab.com/ailife8881/onyx-ime.git",
+      "description": "OnyxIME"
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "rotating-camera",
+      "path": "upstream/ailife8881/rotating-camera",
+      "revision": "master",
+      "group": "ecosystem",
+      "url": "https://gitlab.com/ailife8881/rotating-camera.git",
+      "description": "RotatingCamera"
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "rtosify",
+      "path": "packages/apps/RTOSify",
+      "revision": "master",
+      "group": "ecosystem",
+      "url": "https://gitlab.com/ailife8881/rtosify.git",
+      "description": "RTOSify"
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "otamanager2",
+      "path": "packages/apps/OTAManager2",
+      "revision": "main",
+      "group": "ecosystem",
+      "url": "https://gitlab.com/ailife8881/otamanager2.git",
+      "description": "OTA manager"
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "watchmaker-community-store",
+      "path": "packages/apps/WatchMakerStore",
+      "revision": "main",
+      "group": "ecosystem",
+      "url": "https://gitlab.com/ailife8881/watchmaker-community-store.git",
+      "description": "WatchMaker community store"
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "wftools",
+      "path": "tools/wftools",
+      "revision": "main",
+      "group": "tools",
+      "url": "https://gitlab.com/ailife8881/wftools.git",
+      "description": "Watch face tools"
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "raise-to-wake",
+      "path": "packages/apps/RaiseToWake",
+      "revision": "master",
+      "group": "ecosystem",
+      "url": "https://gitlab.com/ailife8881/raise-to-wake.git",
+      "description": "Raise to wake"
+    },
+    {
+      "host": "gitlab",
+      "owner": "ailife8881",
+      "repo": "onyxui-validationtest",
+      "path": "tools/onyxui-validationtest",
+      "revision": "master",
+      "group": "tools",
+      "url": "https://gitlab.com/ailife8881/onyxui-validationtest.git",
+      "description": "OnyxUI validation"
+    },
+    {
+      "host": "gitlab",
+      "owner": "PlayMcBKuwu",
+      "repo": "rotating-camera",
+      "path": "packages/apps/OptiX",
+      "revision": "master",
+      "group": "ecosystem",
+      "url": "https://gitlab.com/PlayMcBKuwu/rotating-camera.git",
+      "description": "OptiX camera"
+    },
+    {
+      "host": "github",
+      "owner": "XTOM0706",
+      "repo": "arix-app",
+      "path": "packages/apps/AriX",
+      "revision": "main",
+      "group": "ecosystem",
+      "url": "https://github.com/XTOM0706/arix-app.git",
+      "description": "AriX AI assistant (AGPL-3.0)"
+    }
+  ]
+}
